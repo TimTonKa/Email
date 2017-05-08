@@ -23,7 +23,7 @@
 - (IBAction)sendEmailBtnPressed:(id)sender {
     
     //Method 1
-/*    NSString *mailPerson = @"tim@gomaji.com";
+/*    NSString *mailPerson = @"test@gmail.com";
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"mailto:\%@",mailPerson]];
     if ([[UIApplication sharedApplication] canOpenURL:url]) {
         [[UIApplication sharedApplication] openURL:url];
